@@ -7,12 +7,24 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800|Clicker+Script' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/animation.css">
+		<link rel="stylesheet" type="text/css" href="css/util.css">
+		<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+		<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+		<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+		<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+		<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css">
+		<link rel="stylesheet" type="text/css" href="css/main_2.css">
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
 	</head>
 
 	<body>
 
-		<header>
+		<header class="header">
 		    <h1 class="header-title animate-pop-in">Project Title</h1>
 		</header>
 
@@ -28,7 +40,7 @@
 		      <ul class="nav navbar-nav navbar-right nav-color">
 		        <li><a href="index.html#projects" class="nav-link js-scroll-trigger">Projects</a></li>
 		        <li><a href="index.html#about" class="nav-link js-scroll-trigger">About Me</a></li>
-		        <li><a href="index.html#contact" class="nav-link js-scroll-trigger">Contact Me</a></li>
+		        <li><a href="#contact" class="nav-link js-scroll-trigger">Contact Me</a></li>
 		      </ul>
 		    </div>
 		  </div>
@@ -77,9 +89,77 @@
 				</div>
 			</div>
 		</section>
+		<section id="contact" style="margin-top:70px">
 
+			<div class="container-contact100">
+				<div class="wrap-contact100">
+					<form class="contact100-form validate-form">
+						<span class="contact100-form-title">
+							Send Me A Message
+						</span>
+
+
+						<div class="wrap-input100 validate-input" data-validate="Name is required">
+							<label class="label-input100" for="name">Full name</label>
+							<input id="name" class="input100" type="text" name="name" placeholder="Enter your name...">
+							<span class="focus-input100"></span>
+						</div>
+
+
+						<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+							<label class="label-input100" for="email">Email Address</label>
+							<input id="email" class="input100" type="text" name="email" placeholder="Enter your email...">
+							<span class="focus-input100"></span>
+						</div>
+
+						<div class="wrap-input100 validate-input" data-validate = "Message is required">
+							<label class="label-input100" for="message">Message</label>
+							<textarea id="message" class="input100" name="message" placeholder="Type your message here..."></textarea>
+							<span class="focus-input100"></span>
+						</div>
+
+						<div class="container-contact100-form-btn">
+							<button class="contact100-form-btn">
+								Send
+							</button>
+						</div>
+
+						<div class="contact100-form-social flex-c-m">
+							<a href="#" class="contact100-form-social-item flex-c-m bg1 m-r-5">
+								<i class="fa fa-facebook-f" aria-hidden="true"></i>
+							</a>
+
+							<a href="#" class="contact100-form-social-item flex-c-m bg2 m-r-5">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</a>
+
+							<a href="#" class="contact100-form-social-item flex-c-m bg3">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							</a>
+						</div>
+					</form>
+
+					<div class="contact100-more flex-col-c-m" style="background-image: url('image/bg-01.jpg');">
+					</div>
+				</div>
+			</div> 
+		</section>
+
+		<script src="js/main.js"></script>
+        <script src="js/demo.js"></script>
 		<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="vendor/animsition/js/animsition.min.js"></script>
+		<script src="vendor/bootstrap/js/popper.js"></script>
+		<script src="vendor/select2/select2.min.js"></script>
+		<script src="vendor/daterangepicker/moment.min.js"></script>
+		<script src="vendor/daterangepicker/daterangepicker.js"></script>
+		<script src="vendor/countdowntime/countdowntime.js"></script>
+		<script src="js/main_2.js"></script>
+		<script src="js/animation.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+
 	</body>
 
 </html>
