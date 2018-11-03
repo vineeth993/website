@@ -567,9 +567,52 @@ a{
     } 
         
 
+.border-left{
+    text-align: justify;
+    border-left: 1px solid;
+}
+
+.border-top{
+    text-align: justify;
+    border-top: 0px solid;
+}
+
+@media(max-width: 768px){
+    .border-left{
+        border-left: 0px solid;
+    }
+    .border-top{
+        border-top: 1px solid;
+    }
+    .text-align{
+        text-align: center;
+    }
+}
+
+.project{
+    background-image: url("../image/project1/photograph-1.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+.image-size{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+
+.jumbotron{
+    background-color: white !important;
+}
+
 /*Animate Project Page*/
 
-.header {
+/*.header {
   align-items: center;
   display: flex;
   font-size: 20px;
@@ -623,12 +666,12 @@ ev1
 .header-title {
     animation-delay: .8s;
 }
-
+*/
 
 
 /* Animations */
 
-@keyframes fade-slide-down {
+/*@keyframes fade-slide-down {
   0% {
     opacity: 0;
     transform: translateY(-4rem);
@@ -654,5 +697,5 @@ ev1
   100% {
     transform: rotateZ(-4deg);
   }
-}
+}*/
 
